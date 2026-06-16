@@ -4,11 +4,11 @@ cmake_minimum_required(VERSION 3.20)
 project(edn-cpp
   VERSION 0.1.0
   DESCRIPTION "edn-cpp — standalone C++20 EDN parser and emitter"
-  HOMEPAGE_URL "https://github.com/cljseq/edn-cpp"
+  HOMEPAGE_URL "https://github.com/nous/edn-cpp"
   LANGUAGES CXX)
 
 # ---------------------------------------------------------------------------
-# Dependency policy (mirrors cljseq native convention)
+# Dependency policy (mirrors nous native convention)
 #
 # - No Boost. C++20 STL covers all use cases.
 # - FetchContent + pinned tag for any dependency with a build step.
